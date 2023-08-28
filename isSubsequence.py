@@ -9,19 +9,3 @@ class Solution:
             pointer_t += 1
 
         return pointer_s == len(s)
-
-# print(flag)
-
-
-# class Solution:
-#     def isSubsequence(self, s: str, t: str) -> bool:
-#         flag = False
-#         if s == '':
-#             return True
-#         for word in s:
-#             if word in t:
-#                 flag = True
-#             else:
-#                 flag = False
-#                 break
-#         return flag
