@@ -1,2 +1,2 @@
-for i in range(2):
-    print("e")
+nums = [1, 1, 1, 1, 2, 2, 3]
+print(len(set(nums)))
