@@ -1,5 +1,5 @@
 class Solution:
-    def removeElement(self, nums, val):
+    def removeElement(self, nums: list[int], val: int) -> int:
         k = 0  # Initialize the index to place elements not equal to val
 
         # Iterate through the array using pointer i
