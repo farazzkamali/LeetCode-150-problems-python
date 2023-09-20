@@ -1,6 +1,5 @@
 class Solution:
     def minCostClimbingStairs(self, cost: list[int]) -> int:
-        cost = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
 
         cost.append(0)
 
