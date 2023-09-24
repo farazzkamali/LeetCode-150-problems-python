@@ -16,14 +16,14 @@ class Solution:
         return candidate
 
 
-class Solution:
-    def majorityElement(self, nums):
-        count = {}
-        res = 0
-        maxCount = 0
-        for n in nums:
-            count[n] = 1 + count.get(n, 0)
-            if count[n] > maxCount:
-                res = n
-            maxCount = max(count[n], maxCount)
-        return res
+# `class Solution:
+#     def majorityElement(self, nums):
+#         count = {}
+#         res = 0
+#         maxCount = 0
+#         for n in nums:
+#             count[n] = 1 + count.get(n, 0)
+#             if count[n] > maxCount:
+#                 res = n
+#             maxCount = max(count[n], maxCount)
+#         return res
